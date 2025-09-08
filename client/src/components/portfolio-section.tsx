@@ -41,7 +41,7 @@ export default function PortfolioSection() {
       title: "Glados",
       description: "Bot Discord avancé où j'ai participé en tant que membre du staff pour son développement.",
       image: gladosBanner,
-      technologies: ["Python", "Discord.py", "APIs"],
+      technologies: ["JavaScript", "Discord.js", "APIs"],
       role: "Staff",
       demoUrl: "#",
       githubUrl: "#",
