@@ -16,23 +16,25 @@ export default function ContactSection() {
 
         <div className="max-w-2xl mx-auto">
           <div className="space-y-8">
-            <div className="flex items-center space-x-4 justify-center">
-              <div className="bg-primary/20 p-4 rounded-lg">
-                <Mail className="text-accent w-6 h-6" />
+            <div className="flex flex-col items-center space-y-4">
+              <div className="flex items-center space-x-4">
+                <div className="bg-primary/20 p-4 rounded-lg">
+                  <Mail className="text-accent w-6 h-6" />
+                </div>
+                <div className="text-center">
+                  <h3 className="font-semibold text-accent">Email</h3>
+                  <p className="text-muted-foreground">pinot.clement.pro@gmail.com</p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-semibold text-accent">Email</h3>
-                <p className="text-muted-foreground">pinot.clement.pro@gmail.com</p>
-              </div>
-            </div>
 
-            <div className="flex items-center space-x-4 justify-center">
-              <div className="bg-primary/20 p-4 rounded-lg">
-                <MapPin className="text-accent w-6 h-6" />
-              </div>
-              <div>
-                <h3 className="font-semibold text-accent">Localisation</h3>
-                <p className="text-muted-foreground">Pau, France</p>
+              <div className="flex items-center space-x-4">
+                <div className="bg-primary/20 p-4 rounded-lg">
+                  <MapPin className="text-accent w-6 h-6" />
+                </div>
+                <div className="text-center">
+                  <h3 className="font-semibold text-accent">Localisation</h3>
+                  <p className="text-muted-foreground">Pau, France</p>
+                </div>
               </div>
             </div>
 
