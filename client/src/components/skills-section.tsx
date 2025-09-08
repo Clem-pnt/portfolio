@@ -31,7 +31,7 @@ export default function SkillsSection() {
       skills: [
         { name: "YAML", icon: FileText, color: "text-red-400" },
         { name: "JSON", icon: Database, color: "text-green-600" },
-        { name: "TOML", icon: Database, color: "text-green-600" },
+        { name: "TOML", icon: Database, color: "text-blue-600" },
       ],
     },
     {
