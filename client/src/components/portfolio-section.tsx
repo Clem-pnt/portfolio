@@ -24,8 +24,8 @@ export default function PortfolioSection() {
       image: goliathBanner,
       technologies: ["Node.js", "Discord.js", "JavaScript"],
       role: "Fondateur",
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://clem-pnt.github.io/goliath_website/index.html",
+      githubUrl: "https://discord.gg/cGakFMZHBh",
     },
     {
       id: 3,
