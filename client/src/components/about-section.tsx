@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { SiInstagram, SiWhatsapp, SiDiscord } from "react-icons/si";
 
 export default function AboutSection() {
   return (
@@ -11,36 +11,36 @@ export default function AboutSection() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-accent">Salut, je suis un Développeur Web</h3>
+            <h3 className="text-2xl font-semibold text-accent">Salut, je suis un Développeur Polyvalent</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Développeur web passionné avec plusieurs années d'expérience dans la création d'applications web modernes. 
-              Je me spécialise dans le développement front-end et back-end, avec un œil particulier pour le design et l'expérience utilisateur.
+              Développeur passionné spécialisé dans le développement web avec HTML, CSS et JavaScript. 
+              Je crée également des bots Discord avec Node.js et Python, et je configure des serveurs Minecraft avec YAML.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Mon approche combine créativité technique et esthétique moderne pour créer des solutions web qui ne sont pas seulement fonctionnelles, 
-              mais aussi visuellement captivantes. J'aime explorer de nouvelles technologies et repousser les limites du possible sur le web.
+              J'ai fondé plusieurs projets comme Aragonite (serveur Minecraft), Goliath (bot Discord) et Brawl Vision (agence de contenu). 
+              J'aime créer des solutions innovantes et gérer des communautés en ligne.
             </p>
             <div className="flex space-x-4">
               <a
                 href="#"
                 className="text-muted-foreground hover:text-accent transition-colors"
-                data-testid="link-github"
+                data-testid="link-instagram"
               >
-                <Github className="w-6 h-6" />
+                <SiInstagram className="w-6 h-6" />
               </a>
               <a
                 href="#"
                 className="text-muted-foreground hover:text-accent transition-colors"
-                data-testid="link-linkedin"
+                data-testid="link-whatsapp"
               >
-                <Linkedin className="w-6 h-6" />
+                <SiWhatsapp className="w-6 h-6" />
               </a>
               <a
                 href="#"
                 className="text-muted-foreground hover:text-accent transition-colors"
-                data-testid="link-twitter"
+                data-testid="link-discord"
               >
-                <Twitter className="w-6 h-6" />
+                <SiDiscord className="w-6 h-6" />
               </a>
             </div>
           </div>

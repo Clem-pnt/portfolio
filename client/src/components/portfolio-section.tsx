@@ -4,55 +4,41 @@ export default function PortfolioSection() {
   const projects = [
     {
       id: 1,
-      title: "Plateforme E-commerce",
-      description: "Application de commerce en ligne moderne avec interface intuitive et paiements sécurisés.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React", "Node.js", "MongoDB"],
+      title: "Aragonite",
+      description: "Serveur Minecraft que j'ai fondé, offrant une expérience de jeu unique avec des plugins personnalisés.",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["Minecraft", "YAML", "Plugins"],
+      role: "Fondateur",
       demoUrl: "#",
       githubUrl: "#",
     },
     {
       id: 2,
-      title: "Dashboard Analytique",
-      description: "Interface de visualisation de données en temps réel avec graphiques interactifs.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Vue.js", "D3.js", "Express"],
+      title: "Goliath",
+      description: "Bot Discord que j'ai créé avec des fonctionnalités avancées de modération et de divertissement.",
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["Node.js", "Discord.js", "JavaScript"],
+      role: "Fondateur",
       demoUrl: "#",
       githubUrl: "#",
     },
     {
       id: 3,
-      title: "App Mobile",
-      description: "Application mobile cross-platform avec design moderne et performances optimisées.",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React Native", "Firebase", "Redux"],
+      title: "Brawl Vision",
+      description: "Agence de créateur de contenu spécialisée dans Brawl Stars que j'ai fondée.",
+      image: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["Gestion", "Contenu", "Marketing"],
+      role: "Fondateur",
       demoUrl: "#",
       githubUrl: "#",
     },
     {
       id: 4,
-      title: "IA Assistant",
-      description: "Interface conversationnelle alimentée par l'IA avec intégration d'APIs modernes.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Python", "FastAPI", "OpenAI"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      id: 5,
-      title: "Plateforme Gaming",
-      description: "Plateforme de jeux web avec multijoueur en temps réel et classements.",
-      image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["WebGL", "Socket.io", "Three.js"],
-      demoUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      id: 6,
-      title: "DeFi Trading",
-      description: "Plateforme de trading décentralisée avec intégration blockchain et portefeuilles crypto.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Solidity", "Web3.js", "Ethereum"],
+      title: "Glados",
+      description: "Bot Discord avancé où j'ai participé en tant que membre du staff pour son développement.",
+      image: "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      technologies: ["Python", "Discord.py", "APIs"],
+      role: "Staff",
       demoUrl: "#",
       githubUrl: "#",
     },
@@ -69,7 +55,7 @@ export default function PortfolioSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -82,7 +68,12 @@ export default function PortfolioSection() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2 text-accent">{project.title}</h3>
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-xl font-semibold text-accent">{project.title}</h3>
+                  <span className="px-2 py-1 text-xs bg-primary/20 text-primary rounded-full">
+                    {project.role}
+                  </span>
+                </div>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, index) => (
@@ -101,7 +92,7 @@ export default function PortfolioSection() {
                     data-testid={`project-demo-${project.id}`}
                   >
                     <ExternalLink className="w-4 h-4" />
-                    Démo
+                    Voir
                   </a>
                   <a
                     href={project.githubUrl}
