@@ -2,7 +2,7 @@ import { ExternalLink, Github } from "lucide-react";
 import aragoniteBanner from "@assets/aragonite-banner_1757291789566.png";
 import goliathBanner from "@assets/d3462f57abcfee7628b6d67a6415ef12_1757291813344.png";
 import gladosBanner from "@assets/69dd83a9e0d1202ee87af3a06b1bb520_1757291832036.png";
-import brawlVisionBanner from "@assets/generated_images/Brawl_Vision_agency_banner_12683691.png";
+import brawlVisionBanner from "@assets/generated_images/Brawl_Vision_golden_eye_banner_b6ffc199.png";
 
 export default function PortfolioSection() {
   const projects = [
