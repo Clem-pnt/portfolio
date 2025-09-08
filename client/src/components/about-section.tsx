@@ -56,7 +56,7 @@ export default function AboutSection() {
               <div className="space-y-4">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Localisation</span>
-                  <span className="text-accent">France</span>
+                  <span className="text-accent">Pau, France</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Expérience</span>

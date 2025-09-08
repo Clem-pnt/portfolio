@@ -22,7 +22,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-accent">Email</h3>
-                <p className="text-muted-foreground">clem.pinot@gmail.com</p>
+                <p className="text-muted-foreground">pinot.clement.pro@gmail.com</p>
               </div>
             </div>
 
@@ -32,7 +32,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-accent">Localisation</h3>
-                <p className="text-muted-foreground">Paris, France</p>
+                <p className="text-muted-foreground">Pau, France</p>
               </div>
             </div>
 
