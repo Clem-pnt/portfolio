@@ -11,14 +11,14 @@ export default function AboutSection() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-accent">Salut, je suis un Développeur Polyvalent</h3>
+            <h3 className="text-2xl font-semibold text-accent">Salut, je suis Clément !</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Développeur passionné spécialisé dans le développement web avec HTML, CSS et JavaScript. 
-              Je crée également des bots Discord avec Node.js et Python, et je configure des serveurs Minecraft avec YAML.
+              J'ai 17 ans et je suis actuellement en L1 informatique. Passionné depuis tout petit par Minecraft et l'informatique, 
+              j'ai transformé cette passion en expertise technique dans le développement web et la création de bots Discord.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              J'ai fondé plusieurs projets comme Aragonite (serveur Minecraft), Goliath (bot Discord) et Brawl Vision (agence de contenu). 
-              J'aime créer des solutions innovantes et gérer des communautés en ligne.
+              Au fil des années, j'ai fondé plusieurs projets comme Aragonite (serveur Minecraft), Goliath (bot Discord) et Brawl Vision (agence de contenu). 
+              J'aime créer des solutions innovantes, gérer des communautés en ligne et partager ma passion pour la tech avec d'autres.
             </p>
             <div className="flex space-x-4">
               <a
@@ -59,12 +59,16 @@ export default function AboutSection() {
                   <span className="text-accent">Pau, France</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Expérience</span>
-                  <span className="text-accent">3+ années</span>
+                  <span className="text-muted-foreground">Âge</span>
+                  <span className="text-accent">17 ans</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Projets complétés</span>
-                  <span className="text-accent">25+</span>
+                  <span className="text-muted-foreground">Formation</span>
+                  <span className="text-accent">L1 Informatique</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">Projets fondés</span>
+                  <span className="text-accent">3+</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Disponibilité</span>
