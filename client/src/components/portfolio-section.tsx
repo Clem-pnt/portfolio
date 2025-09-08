@@ -35,7 +35,7 @@ export default function PortfolioSection() {
       technologies: ["Gestion", "Contenu", "Marketing"],
       role: "Fondateur",
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://discord.gg/eqcNnJkatX",
     },
     {
       id: 4,
