@@ -44,8 +44,8 @@ export default function PortfolioSection() {
       image: gladosBanner,
       technologies: ["JavaScript", "Discord.js", "APIs"],
       role: "Staff",
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://aperture-sciences.com",
+      githubUrl: "https://discord.gg/4rbZHAw6Ta",
     },
   ];
 
