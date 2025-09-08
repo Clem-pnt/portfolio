@@ -1,4 +1,8 @@
 import { ExternalLink, Github } from "lucide-react";
+import aragoniteBanner from "@assets/aragonite-banner_1757291789566.png";
+import goliathBanner from "@assets/d3462f57abcfee7628b6d67a6415ef12_1757291813344.png";
+import gladosBanner from "@assets/69dd83a9e0d1202ee87af3a06b1bb520_1757291832036.png";
+import brawlVisionBanner from "@assets/generated_images/Brawl_Vision_agency_banner_12683691.png";
 
 export default function PortfolioSection() {
   const projects = [
@@ -6,7 +10,7 @@ export default function PortfolioSection() {
       id: 1,
       title: "Aragonite",
       description: "Serveur Minecraft que j'ai fondé, offrant une expérience de jeu unique avec des plugins personnalisés.",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: aragoniteBanner,
       technologies: ["Minecraft", "YAML", "Plugins"],
       role: "Fondateur",
       demoUrl: "#",
@@ -16,7 +20,7 @@ export default function PortfolioSection() {
       id: 2,
       title: "Goliath",
       description: "Bot Discord que j'ai créé avec des fonctionnalités avancées de modération et de divertissement.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: goliathBanner,
       technologies: ["Node.js", "Discord.js", "JavaScript"],
       role: "Fondateur",
       demoUrl: "#",
@@ -26,7 +30,7 @@ export default function PortfolioSection() {
       id: 3,
       title: "Brawl Vision",
       description: "Agence de créateur de contenu spécialisée dans Brawl Stars que j'ai fondée.",
-      image: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: brawlVisionBanner,
       technologies: ["Gestion", "Contenu", "Marketing"],
       role: "Fondateur",
       demoUrl: "#",
@@ -36,7 +40,7 @@ export default function PortfolioSection() {
       id: 4,
       title: "Glados",
       description: "Bot Discord avancé où j'ai participé en tant que membre du staff pour son développement.",
-      image: "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: gladosBanner,
       technologies: ["Python", "Discord.py", "APIs"],
       role: "Staff",
       demoUrl: "#",
