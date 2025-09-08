@@ -13,8 +13,8 @@ export default function PortfolioSection() {
       image: aragoniteBanner,
       technologies: ["Minecraft", "YAML", "Plugins"],
       role: "Fondateur",
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://aragonite.strator.gg/",
+      githubUrl: "https://discord.gg/feJpTQjUUQ",
     },
     {
       id: 2,
