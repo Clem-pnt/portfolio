@@ -1,4 +1,5 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { SiDiscord } from "react-icons/si";
 import aragoniteBanner from "@assets/aragonite-banner_1757291789566.png";
 import goliathBanner from "@assets/d3462f57abcfee7628b6d67a6415ef12_1757291813344.png";
 import gladosBanner from "@assets/69dd83a9e0d1202ee87af3a06b1bb520_1757291832036.png";
@@ -96,14 +97,14 @@ export default function PortfolioSection() {
                     data-testid={`project-demo-${project.id}`}
                   >
                     <ExternalLink className="w-4 h-4" />
-                    Voir
+                    Site
                   </a>
                   <a
                     href={project.githubUrl}
                     className="text-accent hover:text-primary transition-colors flex items-center gap-1"
                     data-testid={`project-github-${project.id}`}
                   >
-                    <Github className="w-4 h-4" />
+                    <SiDiscord className="w-4 h-4" />
                     Discord
                   </a>
                 </div>
