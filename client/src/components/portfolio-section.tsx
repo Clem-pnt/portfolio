@@ -91,14 +91,16 @@ export default function PortfolioSection() {
                   ))}
                 </div>
                 <div className="flex space-x-4">
-                  <a
-                    href={project.demoUrl}
-                    className="text-accent hover:text-primary transition-colors flex items-center gap-1"
-                    data-testid={`project-demo-${project.id}`}
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    Site
-                  </a>
+                  {project.demoUrl !== "#" && (
+                    <a
+                      href={project.demoUrl}
+                      className="text-accent hover:text-primary transition-colors flex items-center gap-1"
+                      data-testid={`project-demo-${project.id}`}
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      Site
+                    </a>
+                  )}
                   <a
                     href={project.githubUrl}
                     className="text-accent hover:text-primary transition-colors flex items-center gap-1"
