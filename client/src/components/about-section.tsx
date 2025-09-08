@@ -22,21 +22,27 @@ export default function AboutSection() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/clem.pinot"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 data-testid="link-instagram"
               >
                 <SiInstagram className="w-6 h-6" />
               </a>
               <a
-                href="#"
+                href="https://wa.me/33637221748"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 data-testid="link-whatsapp"
               >
                 <SiWhatsapp className="w-6 h-6" />
               </a>
               <a
-                href="#"
+                href="https://discord.com/users/clem.pnt"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 data-testid="link-discord"
               >

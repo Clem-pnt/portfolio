@@ -22,7 +22,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-accent">Email</h3>
-                <p className="text-muted-foreground">contact@portfolio.dev</p>
+                <p className="text-muted-foreground">clem.pinot@gmail.com</p>
               </div>
             </div>
 
@@ -40,21 +40,27 @@ export default function ContactSection() {
               <h3 className="font-semibold mb-6 text-accent">Réseaux sociaux</h3>
               <div className="flex justify-center space-x-6">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/clem.pinot"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-card p-4 rounded-lg hover:bg-primary/20 transition-colors border border-border neon-border"
                   data-testid="social-instagram"
                 >
                   <SiInstagram className="w-6 h-6 text-muted-foreground hover:text-accent transition-colors" />
                 </a>
                 <a
-                  href="#"
+                  href="https://wa.me/33637221748"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-card p-4 rounded-lg hover:bg-primary/20 transition-colors border border-border neon-border"
                   data-testid="social-whatsapp"
                 >
                   <SiWhatsapp className="w-6 h-6 text-muted-foreground hover:text-accent transition-colors" />
                 </a>
                 <a
-                  href="#"
+                  href="https://discord.com/users/clem.pnt"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-card p-4 rounded-lg hover:bg-primary/20 transition-colors border border-border neon-border"
                   data-testid="social-discord"
                 >
