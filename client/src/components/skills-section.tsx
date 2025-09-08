@@ -30,7 +30,7 @@ export default function SkillsSection() {
       title: "Configuration",
       skills: [
         { name: "YAML", icon: FileText, color: "text-red-400" },
-        { name: "Minecraft", icon: Database, color: "text-green-600" },
+        { name: "JSON", icon: Database, color: "text-green-600" },
       ],
     },
     {
