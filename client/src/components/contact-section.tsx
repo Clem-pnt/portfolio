@@ -22,7 +22,7 @@ export default function ContactSection() {
                   <Mail className="text-accent w-6 h-6" />
                 </div>
                 <h3 className="font-semibold text-accent mb-2">Email</h3>
-                <p className="text-muted-foreground">pinot.clement.pro@gmail.com</p>
+                <p className="text-muted-foreground">clement.pinot@aperture-sciences.com</p>
               </div>
 
               <div className="text-center">
