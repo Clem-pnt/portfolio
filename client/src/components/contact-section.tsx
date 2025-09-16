@@ -2,15 +2,17 @@ import { Mail, MapPin } from "lucide-react";
 import { SiInstagram, SiWhatsapp, SiDiscord } from "react-icons/si";
 
 export default function ContactSection() {
-
   return (
     <section id="contact" className="py-20 px-6 bg-muted/20">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Contact</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
+            Contact
+          </h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full"></div>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Vous avez un projet en tête ? N'hésitez pas à me contacter pour en discuter.
+            Vous avez un projet en tête ? N'hésitez pas à me contacter pour en
+            discuter.
           </p>
         </div>
 
@@ -22,7 +24,9 @@ export default function ContactSection() {
                   <Mail className="text-accent w-6 h-6" />
                 </div>
                 <h3 className="font-semibold text-accent mb-2">Email</h3>
-                <p className="text-muted-foreground">clement.pinot@aperture-sciences.com</p>
+                <p className="text-muted-foreground">
+                  clement.pinot@aperture-sciences.com
+                </p>
               </div>
 
               <div className="text-center">
@@ -64,6 +68,22 @@ export default function ContactSection() {
                 >
                   <SiDiscord className="w-6 h-6 text-muted-foreground hover:text-accent transition-colors" />
                 </a>
+
+                {/* --- guns.lol --- */}
+                <a
+                  href="https://guns.lol/clem.pnt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-card p-4 rounded-lg hover:bg-primary/20 transition-colors border border-border neon-border"
+                  data-testid="social-guns"
+                >
+                  <img
+                    src="/icons/guns.svg"
+                    alt="guns.lol"
+                    className="w-6 h-6 object-contain text-muted-foreground hover:text-accent transition-colors"
+                  />
+                </a>
+                {/* ---------------- */}
               </div>
             </div>
           </div>
