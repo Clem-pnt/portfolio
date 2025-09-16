@@ -78,7 +78,7 @@ export default function ContactSection() {
                   data-testid="social-guns"
                 >
                   <img
-                    src="guns.svg"
+                    src="./guns.svg"
                     alt="guns.lol"
                     className="w-6 h-6 object-contain text-muted-foreground hover:text-accent transition-colors"
                   />
