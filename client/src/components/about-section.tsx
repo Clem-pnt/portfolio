@@ -17,7 +17,7 @@ export default function AboutSection() {
               j'ai transformé cette passion en expertise technique dans le développement web et la création de bots Discord.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Au fil des années, j'ai fondé plusieurs projets comme Aragonite (serveur Minecraft), Goliath (bot Discord) et Brawl Vision (agence de contenu). 
+              Au fil des années, j'ai fondé plusieurs projets comme Aragonite (serveur Minecraft) ou encore Goliath (bot Discord). 
               J'aime créer des solutions innovantes, gérer des communautés en ligne et partager ma passion pour la tech avec d'autres.
             </p>
             <div className="flex space-x-4">
