@@ -3,7 +3,7 @@ import { SiDiscord } from "react-icons/si";
 import aragoniteBanner from "@assets/aragonite-banner_1757291789566.png";
 import goliathBanner from "@assets/d3462f57abcfee7628b6d67a6415ef12_1757291813344.png";
 import gladosBanner from "@assets/69dd83a9e0d1202ee87af3a06b1bb520_1757291832036.png";
-import gladosBanner from "@assets/croissant.png";
+import croissantBanner from "@assets/croissant.png";
 
 export default function PortfolioSection() {
   const projects = [
