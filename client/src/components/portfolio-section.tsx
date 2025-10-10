@@ -3,7 +3,7 @@ import { SiDiscord } from "react-icons/si";
 import aragoniteBanner from "@assets/aragonite-banner_1757291789566.png";
 import goliathBanner from "@assets/d3462f57abcfee7628b6d67a6415ef12_1757291813344.png";
 import gladosBanner from "@assets/69dd83a9e0d1202ee87af3a06b1bb520_1757291832036.png";
-import brawlVisionBanner from "@assets/generated_images/Brawl_Vision_golden_eye_banner_b6ffc199.png";
+import gladosBanner from "@assets/croissant.png";
 
 export default function PortfolioSection() {
   const projects = [
@@ -27,6 +27,17 @@ export default function PortfolioSection() {
       role: "Staff",
       demoUrl: "https://aperture-sciences.com",
       githubUrl: "https://discord.gg/4rbZHAw6Ta",
+    },
+
+    {
+      id: 3,
+      title: "Croissant API",
+      description: "Croissant est une plateforme française innovante dédiée à la gestion d'inventaires virtuels et au marketplace gaming.",
+      image: croissantBanner,
+      technologies: ["JavaScript", "TypeScript", "HTML"],
+      role: "Staff",
+      demoUrl: "https://croissant-api.fr/fr",
+      githubUrl: "https://discord.gg/croissant",
     },
   ];
 
