@@ -40,9 +40,9 @@ export default function PortfolioSection() {
       githubUrl: "https://discord.gg/croissant",
     },
 
-    
+    {
       id: 3,
-      title: "Goliatj",
+      title: "Goliath",
       description: "Bot multifonction, accès sur la sécurité et la protection des utilisateurs",
       image: croissantBanner,
       technologies: ["JavaScript", "Node.js"],
