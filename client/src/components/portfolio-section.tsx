@@ -41,14 +41,14 @@ export default function PortfolioSection() {
     },
 
     {
-      id: 3,
+      id: 4,
       title: "Goliath",
       description: "Bot multifonction, accès sur la sécurité et la protection des utilisateurs",
-      image: croissantBanner,
+      image: goliathtBanner,
       technologies: ["JavaScript", "Node.js"],
       role: "Staff",
-      demoUrl: "https://croissant-api.fr/fr",
-      githubUrl: "https://discord.gg/croissant",
+      demoUrl: "https://dsc-goliath.netlify.app",
+      githubUrl: "https://discord.gg/cGakFMZHBh",
     },
   ];
 
