@@ -44,7 +44,7 @@ export default function PortfolioSection() {
       id: 4,
       title: "Goliath",
       description: "Bot multifonction, accès sur la sécurité et la protection des utilisateurs",
-      image: goliathtBanner,
+      image: goliathBanner,
       technologies: ["JavaScript", "Node.js"],
       role: "Staff",
       demoUrl: "https://dsc-goliath.netlify.app",
