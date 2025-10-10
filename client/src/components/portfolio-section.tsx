@@ -1,6 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import { SiDiscord } from "react-icons/si";
-import aragoniteBanner from "@assets/aragonite-banner_1757291789566.png";
+import aragoniteBanner from "@assets/banner_v4.png";
 import goliathBanner from "@assets/goliath_banner.png";
 import gladosBanner from "@assets/69dd83a9e0d1202ee87af3a06b1bb520_1757291832036.png";
 import croissantBanner from "@assets/croissant.png";
